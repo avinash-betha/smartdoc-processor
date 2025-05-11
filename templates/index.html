@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SmartDoc Processor</title>
+  </head>
+  <body>
+    <h2>Upload Document Image</h2>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="document" required />
+      <button type="submit">Process</button>
+    </form>
+
+    {% if original %}
+    <h3>Original Image</h3>
+    <img src="{{ original }}" width="300" />
+    <h3>Processed Image</h3>
+    <img src="{{ processed }}" width="300" />
+    {% endif %}
+  </body>
+</html>

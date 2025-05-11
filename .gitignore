@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+venv/
+.env/
+
+# VS Code or PyCharm
+.vscode/
+.idea/
+
+# Flask cache
+*.log
+instance/
+*.db
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads and generated files
+static/uploads/
+*.jpg
+*.png
+
+# Pytest
+.pytest_cache/
+
+# Tesseract temp files
+tessdata/
+
+# Backup files
+*.bak
+*.swp
